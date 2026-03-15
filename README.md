@@ -1,6 +1,6 @@
-# Process Feedback — Translations
+# Translations for Process Feedback for Google Docs
 
-Community-maintained translation strings for the [Process Feedback](https://github.com/your-org/process-feedback) Chrome extension.
+Community-maintained translation strings for the [Process Feedback for Google Docs](https://www.processfeedback.org/gdocs) Chrome extension.
 
 The extension itself is proprietary. This repository contains only the localisation JSON files, which are licensed under the [MIT License](LICENSE) so anyone can contribute freely.
 
