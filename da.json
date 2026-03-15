@@ -1,0 +1,452 @@
+{
+  "extensionName": {
+    "message": "with-locales-i18n-en",
+    "description": ""
+  },
+  "extensionDescription": {
+    "message": "Eksempel med locales + i18n!",
+    "description": ""
+  },
+
+  "zipReadMeTxt": {
+    "message": "For at udforske Google Docs-processen skal du indlæse denne ZIP-fil på https://app.processfeedback.org/gdocs",
+    "description": ""
+  },
+
+  "tooFewChangesAlert": {
+    "message": "Ikke nok redigeringsaktivitet!\\n\\nDette dokument har færre end 10 redigeringer, hvilket ikke er nok til at generere en procesrapport.\\n\\nSkriv i mindst 10 sekunder mere, og prøv derefter igen.",
+    "description": ""
+  },
+
+  "popupTitle": {
+    "message": "Process Feedback til Google Docs",
+    "description": ""
+  },
+  "popupDescription": {
+    "message": "Denne udvidelse viser redigeringshistorikken for et Google Docs-dokument. Læs mere på\nProcess Feedbacks",
+    "description": ""
+  },
+  "popupHyperlinkTextToProcessFeedbackGoogleDocsPage": {
+    "message": "Google Docs-side",
+    "description": ""
+  },
+  "popupRibbonSettingTitle": {
+    "message": "Båndindstillinger",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeTitle": {
+    "message": "Bånd",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeOptionAlways": {
+    "message": "Vis bånd (standard)",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeOptionFallback": {
+    "message": "Vis knap i stedet",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeOptionNever": {
+    "message": "Vis aldrig bånd",
+    "description": ""
+  },
+  "popupRibbonSettingCheckboxTitleToNotShowTimeInRibbon": {
+    "message": "Vis ikke redigeringstid i båndet",
+    "description": ""
+  },
+  "popupRibbonSettingDropdownTooltip": {
+    "message": "Bestemmer om og hvornår det lange bånd under værktøjslinjen vises",
+    "description": ""
+  },
+  "popupRibbonSettingCheckboxTitleToNotShowTimeInRibbonTooltip": {
+    "message": "Markér dette for at skjule redigeringstid i båndet (får båndet til at indlæse hurtigere)",
+    "description": ""
+  },
+  "popupRibbonSettingDisabledByInstantDownload": {
+    "message": "Denne indstilling kan ikke ændres, mens øjeblikkelig download er aktiveret. Slå \"Download straks procesdata\" fra for at opdatere båndindstillingerne.",
+    "description": ""
+  },
+  "popupRibbonSettingDisabledByInstantDownload2": {
+    "message": "For at fjerne båndet skal du først fastgøre Process Feedback-udvidelsen og derefter fjerne markeringen i \"Download straks procesdata\" i indstillingerne.",
+    "description": ""
+  },
+  "popupOtherSettingTitle": {
+    "message": "Andre indstillinger",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToIncludeCommentsInReport": {
+    "message": "Medtag kommentarer i dette dokument i skriveprocesrapporten",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToIncludeCommentsInReportTooltip": {
+    "message": "Markér dette for at medtage kommentarer (forslag) fra forfattere og se dem i procesrapporten.",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDownloadProcessDataDownload": {
+    "message": "Download",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDownloadProcessDataProcessData": {
+    "message": "procesdata",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDownloadProcessDataDownloadTooltip": {
+    "message": "Dette ændrer Explore Process-knappens funktion. Den downloader en ZIP-fil med procesdata til deling.",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDirectOpenReport": {
+    "message": "Vis ikke denne popup næste gang; åbn rapporten direkte",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDirectOpenReportShorter": {
+    "message": "Spring popup over ved åbning af rapport",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDirectOpenReportTooltip": {
+    "message": "Markér dette for at springe denne popup over og åbne rapporten direkte i en ny fane, når du klikker på Explore Process-knappen.",
+    "description": ""
+  },
+  "popupOtherSettingAutomaticDownloadProcessData": {
+    "message": "Download straks procesdata",
+    "description": ""
+  },
+  "popupOtherSettingAutomaticDownloadProcessDataTooltip": {
+    "message": "Markér dette for automatisk at downloade ZIP-filen med procesdata, når et dokument åbnes. Genindlæser alle åbne dokumentfaner. Nyttigt ved visning af mange rapporter i lærerens dashboard.",
+    "description": ""
+  },
+  "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessData": {
+    "message": "Åbn ikke en ny fane ved download af procesdata",
+    "description": ""
+  },
+  "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessDataShorter": {
+    "message": "Download procesdata lydløst",
+    "description": ""
+  },
+  "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessDataTooltip": {
+    "message": "Markér dette for at stoppe med at åbne en ny fane ved download af ZIP-filen med procesdata.",
+    "description": ""
+  },
+  "popupDevelopedBy": {
+    "message": "Udviklet af",
+    "description": ""
+  },
+  "popupNeedHelp": {
+    "message": "Brug for hjælp?",
+    "description": ""
+  },
+  "popupContactSupport": {
+    "message": "Kontakt support",
+    "description": ""
+  },
+
+  "gdocsbuttonIntialLoadText": {
+    "message": "Sætter op…",
+    "description": ""
+  },
+  "gdocsbuttonIntialLoadTitle": {
+    "message": "Sætter Process Feedback op…",
+    "description": ""
+  },
+  "gdocsbuttonTextDownload": {
+    "message": "Procesdata",
+    "description": ""
+  },
+  "gdocsbuttonTitleDownload": {
+    "message": "Downloader ZIP-filen med skriveprocesdata for dette dokument.",
+    "description": ""
+  },
+  "gdocsbuttonTextExplore": {
+    "message": "Udforsk proces",
+    "description": ""
+  },
+  "gdocsbuttonOpenReport": {
+    "message": "Åbn rapport",
+    "description": ""
+  },
+  "gdocsbuttonTitleExplore": {
+    "message": "Åbner skriveprocessen for dette dokument i en ny fane, lokalt, uden at dele data",
+    "description": ""
+  },
+  "gdocsbuttonTextNoAccess": {
+    "message": "Ingen redigeringstilgang",
+    "description": ""
+  },
+  "gdocsbuttonTitleNoAccess": {
+    "message": "Kan ikke vise skriveprocessen! Dette dokument er skrivebeskyttet, du er offline, eller der er et ukendt problem. Kontakt support, hvis det er nødvendigt.",
+    "description": ""
+  },
+  "gdocsbuttonTextDownloadLoading": {
+    "message": "Downloader…",
+    "description": ""
+  },
+  "gdocsbuttonTextDownloadError": {
+    "message": "Fejl ved download",
+    "description": ""
+  },
+  "gdocsbuttonTextExploreLoading": {
+    "message": "Åbner rapport",
+    "description": ""
+  },
+  "gdocsbuttonTextExploreError": {
+    "message": "Fejl ved åbning",
+    "description": ""
+  },
+
+  "gdocsribbonLoading": {
+    "message": "Process Feedback indlæses…",
+    "description": ""
+  },
+  "gdocsribbonNoAccess": {
+    "message": "Dokumentet er skrivebeskyttet eller offline! Udforskning af processen kræver redigeringstilgang.",
+    "description": ""
+  },
+  "gdocsribbonTypingTimeName": {
+    "message": "Tid",
+    "description": ""
+  },
+  "godcsribbonAuthorsName": {
+    "message": "Forfattere",
+    "description": ""
+  },
+  "godcsribbonEditsName": {
+    "message": "Redigeringer",
+    "description": ""
+  },
+  "gdocsribbonTypingTimeLoading": {
+    "message": "indlæser…",
+    "description": ""
+  },
+  "godcsribbonAuthorsTitle": {
+    "message": "Antal personer, der har ændret dokumentet. Udforsk hele processen for at se detaljerne.",
+    "description": ""
+  },
+  "godcsribbonEditsTitle": {
+    "message": "Samlede ændringer foretaget i hele dokumentet (alle faner i dokumentet)",
+    "description": ""
+  },
+  "godcsribbonTypingTimeTitle": {
+    "message": "Samlet redigeringstid for hele dokumentet (alle faner i dokumentet)",
+    "description": ""
+  },
+  "godcsribbonAuthorsTooltip": {
+    "message": "Det faktiske antal bidragende forfattere (alle faner) kan være højere; se hele processen for detaljer. Er muligvis ikke altid præcist.",
+    "description": ""
+  },
+  "godcsribbonEditsTooltip": {
+    "message": "Omtrentligt antal redigeringer (alle faner); se hele processen for detaljer.",
+    "description": ""
+  },
+  "godcsribbonTypingTimeTooltip": {
+    "message": "Redigeringstid for hele dokumentet (alle faner); se hele processen for at se redigeringstid for individuelle faner.",
+    "description": ""
+  },
+  "godcsribbonCloseAlert": {
+    "message": "Dette deaktiverer båndet og genindlæser siden. Du kan aktivere det igen i udvidelsesindstillingerne. Vil du fortsætte?",
+    "description": ""
+  },
+  "exploreProcessModalCloseButtonText": {
+    "message": "Luk",
+    "description": ""
+  },
+  "exploreProcessModalTitle": {
+    "message": "Udforsk skriveprocessen",
+    "description": ""
+  },
+  "exploreProcessModalSubtitle": {
+    "message": "Udforsk skriveprocessen for dette dokument",
+    "description": ""
+  },
+
+  "processStatusIdle": {
+    "message": "Klar til at udforske processen",
+    "description": ""
+  },
+  "processStatusFetchingRevisions": {
+    "message": "Forsøger at downloade redigeringshistorik fra Google…",
+    "description": ""
+  },
+  "processStatusRetrievingRevisionData": {
+    "message": "Downloader redigeringshistorik fra Google…",
+    "description": ""
+  },
+  "processStatusFetchingComments": {
+    "message": "Henter kommentarer…",
+    "description": ""
+  },
+  "processStatusAddingComments": {
+    "message": "Downloader og medtager kommentarer…",
+    "description": ""
+  },
+  "processStatusRemovingComments": {
+    "message": "Fjerner kommentarer…",
+    "description": ""
+  },
+  "processStatusPreparingReport": {
+    "message": "Forbereder rapportdata…",
+    "description": ""
+  },
+  "processStatusOpeningReport": {
+    "message": "Åbner rapport lokalt i en ny fane uden at dele dine data…",
+    "description": ""
+  },
+  "processStatusDownloadingData": {
+    "message": "Downloader procesdata…",
+    "description": ""
+  },
+  "processStatusCompressingData": {
+    "message": "Komprimerer data…",
+    "description": ""
+  },
+  "processStatusCompletedOpenReport": {
+    "message": "Data sendt videre til Process Feedback-siden…",
+    "description": ""
+  },
+  "processStatusCompletedDownload": {
+    "message": "Download af ZIP-fil med procesdata er startet!",
+    "description": ""
+  },
+  "processErrorNetwork": {
+    "message": "Det ser ud til, at din internetforbindelse ikke virker",
+    "description": ""
+  },
+  "processErrorFetchingRevisions": {
+    "message": "Kunne ikke downloade redigeringshistorikken for dette dokument!",
+    "description": ""
+  },
+  "processErrorRetrievingRevisionData": {
+    "message": "Kunne ikke hente versionsdata fra Google!",
+    "description": ""
+  },
+  "processErrorPreparingReport": {
+    "message": "Kunne ikke forberede rapportdata.",
+    "description": ""
+  },
+  "processErrorUpdatingComments": {
+    "message": "Kunne ikke opdatere kommentarer i rapportdata.",
+    "description": ""
+  },
+  "processErrorOpeningReport": {
+    "message": "Kunne ikke åbne rapporten.",
+    "description": ""
+  },
+  "processErrorDownloadingData": {
+    "message": "Kunne ikke downloade procesdata.",
+    "description": ""
+  },
+  "processErrorGeneric": {
+    "message": "Der opstod en uventet fejl.",
+    "description": ""
+  },
+  "commentsCommentBy": {
+    "message": "Kommentar fra",
+    "description": ""
+  },
+  "commentsUnknownAuthor": {
+    "message": "Ukendt",
+    "description": ""
+  },
+  "commentsReferencedText": {
+    "message": "Refereret tekst",
+    "description": ""
+  },
+  "commentsEdited": {
+    "message": "Redigeret",
+    "description": ""
+  },
+  "commentsDeleted": {
+    "message": "SLETTET",
+    "description": ""
+  },
+  "commentsResolved": {
+    "message": "LØST",
+    "description": ""
+  },
+  "commentsReplies": {
+    "message": "Svar",
+    "description": ""
+  },
+  "processMetadataUnknownAuthor": {
+    "message": "Ukendt forfatter",
+    "description": ""
+  },
+  "processMetadataUnknownEmail": {
+    "message": "Ukendt e-mail",
+    "description": ""
+  },
+  "processMetadataUnknownTitle": {
+    "message": "Ukendt titel",
+    "description": ""
+  },
+  "processMetadataReadyPrefix": {
+    "message": "Metadata inklusive",
+    "description": ""
+  },
+  "processMetadataReadySuffix": {
+    "message": "osv. er klar...",
+    "description": ""
+  },
+  "processMetadataPrepareFailed": {
+    "message": "Kunne ikke forberede dokumentmetadata!",
+    "description": ""
+  },
+  "popupExtensionDescriptionPart1": {
+    "message": "Udforsk, del eller reflekter over din skriveproces",
+    "description": ""
+  },
+  "popupExtensionDescriptionPart3": {
+    "message": "Om udvidelsen",
+    "description": ""
+  },
+  "popupExtensionDescriptionPart4": {
+    "message": "Hvilke data den indsamler",
+    "description": ""
+  },
+  "popupFooterDeveloperText": {
+    "message": "Udviklet af",
+    "description": ""
+  },
+  "popupFooterContactText1": {
+    "message": "Brug for hjælp?",
+    "description": ""
+  },
+  "popupFooterContactText2": {
+    "message": "Kontakt support",
+    "description": ""
+  },
+  "popupFooterWatchTutorial": {
+    "message": "Se vejledning",
+    "description": ""
+  },
+  "popupFooterErrorContactText": {
+    "message": "Hvis fejlen fortsætter, kan du ",
+    "description": ""
+  },
+  "extremelyLargeDocumentAlert": {
+    "message": "Kan ikke downloade redigeringshistorik fra Google Docs! Dette dokuments redigeringshistorik er for stor til at blive downloadet. For at se redigeringshistorikken skal du åbne dokumentet i Google Docs og gå til: Fil → Versionshistorik → Se versionshistorik.",
+    "description": ""
+  },
+  "gdocsribbonReadOnlyDocumentMessage": {
+    "message": "Dokumentet er skrivebeskyttet eller offline! Udforskning af processen kræver redigeringstilgang.",
+    "description": ""
+  },
+  "gdocsbuttonReadOnlyDocumentText": {
+    "message": "Skrivebeskyttet",
+    "description": ""
+  },
+  "gdocsbuttonReadOnlyDocumentTitle": {
+    "message": "Dokumentet er i skrivebeskyttet tilstand. Redigeringstilgang er påkrævet for at udforske skriveprocessen.",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeChangeWarning": {
+    "message": "Genindlæs din Google Docs-side for at fortsætte redigeringen",
+    "description": ""
+  },
+  "logInErrorMessage": {
+    "message": "Log ind på Google Docs for at udforske skriveprocessen.",
+    "description": ""
+  },
+  "godcsribbonRelatedAlert": {
+    "message": "Der kræves en genindlæsning af siden for at anvende ændringer relateret til båndet korrekt. Genindlæse denne side?",
+    "description": ""
+  }
+}
