@@ -1,0 +1,452 @@
+{
+  "extensionName": {
+    "message": "with-locales-i18n-en",
+    "description": ""
+  },
+  "extensionDescription": {
+    "message": "Example using locales + i18n!",
+    "description": ""
+  },
+
+  "zipReadMeTxt": {
+    "message": "To explore the Google Docs process, please load this ZIP file at https://app.processfeedback.org/gdocs",
+    "description": ""
+  },
+
+  "tooFewChangesAlert": {
+    "message": "Not enough editing activity!\\n\\nThis document has fewer than 10 edits, which isn't enough to generate a process report.\\n\\nType for at least 10 more seconds and then try again.",
+    "description": ""
+  },
+
+  "popupTitle": {
+    "message": "Process Feedback for Google Docs",
+    "description": ""
+  },
+  "popupDescription": {
+    "message": "This extension shows the edit history of a Google Docs document. Please read more at\nProcess Feedback's",
+    "description": ""
+  },
+  "popupHyperlinkTextToProcessFeedbackGoogleDocsPage": {
+    "message": "Google Docs page",
+    "description": ""
+  },
+  "popupRibbonSettingTitle": {
+    "message": "Ribbon Settings",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeTitle": {
+    "message": "Ribbon",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeOptionAlways": {
+    "message": "Show ribbon (default)",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeOptionFallback": {
+  "message": "Show button instead",
+  "description": ""
+  },
+  "popupRibbonSettingRibbonModeOptionNever": {
+  "message": "Never show ribbon",
+  "description": ""
+  },
+  "popupRibbonSettingCheckboxTitleToNotShowTimeInRibbon": {
+    "message": "Do not show editing time in ribbon",
+    "description": ""
+  },
+  "popupRibbonSettingDropdownTooltip": {
+    "message": "Determines whether or not and when the long ribbon below the toolbar is shown",
+    "description": ""
+  },
+  "popupRibbonSettingCheckboxTitleToNotShowTimeInRibbonTooltip": {
+    "message": "Check this to hide editing time in ribbon (makes the ribbon load faster)",
+    "description": ""
+  },
+  "popupRibbonSettingDisabledByInstantDownload": {
+    "message": "This setting cannot be changed while instant download is enabled. Turn off \"Instantly download process data\" to update ribbon settings.",
+    "description": ""
+  },
+  "popupRibbonSettingDisabledByInstantDownload2": {
+    "message": "To remove the ribbon, first pin the Process Feedback extension and then, in the settings, uncheck \"Instantly download process data\".",
+    "description": ""
+  },
+  "popupOtherSettingTitle": {
+    "message": "Other Settings",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToIncludeCommentsInReport": {
+    "message": "Include comments in this document in the writing process report",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToIncludeCommentsInReportTooltip": {
+    "message": "Check this to include comments (suggestions) made by authors and to see them in the process report.",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDownloadProcessDataDownload": {
+    "message": "Download",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDownloadProcessDataProcessData": {
+    "message": "process data",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDownloadProcessDataDownloadTooltip": {
+    "message": "This changes the behavior of the Explore Process button. It downloads a ZIP file containing process data for sharing.",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDirectOpenReport": {
+    "message": "Don't show this popup next time; open the report directly",
+    "description": ""
+  },
+    "popupOtherSettingCheckboxTitleToDirectOpenReportShorter": {
+    "message": "Skip popup when opening report",
+    "description": ""
+  },
+  "popupOtherSettingCheckboxTitleToDirectOpenReportTooltip": {
+    "message": "Check this to skip this popup and directly open the report in a new tab when clicking the Explore Process button.",
+    "description": ""
+  },
+  "popupOtherSettingAutomaticDownloadProcessData": {
+    "message": "Instantly download process data",
+    "description": ""
+  },
+  "popupOtherSettingAutomaticDownloadProcessDataTooltip": {
+    "message": "Check this to automatically download the process data ZIP when a document is opened. Reloads all open document tabs. Helpful for viewing lots of reports in the teacher dashboard.",
+    "description": ""
+  },
+  "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessData": {
+    "message": "Don't open a new tab when downloading process data",
+    "description": ""
+  },
+  "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessDataShorter": {
+    "message": "Quietly download process data",
+    "description": ""
+  },
+  "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessDataTooltip": {
+    "message": "Check this to stop opening a new tab when downloading the process data ZIP file.",
+    "description": ""
+  },
+  "popupDevelopedBy": {
+    "message": "Developed by",
+    "description": ""
+  },
+  "popupNeedHelp": {
+    "message": "Need Help?",
+    "description": ""
+  },
+  "popupContactSupport": {
+    "message": "Contact Support",
+    "description": ""
+  },
+
+  "gdocsbuttonIntialLoadText": {
+    "message": "Setting up…",
+    "description": ""
+  },
+  "gdocsbuttonIntialLoadTitle": {
+    "message": "Setting up Process Feedback…",
+    "description": ""
+  },
+  "gdocsbuttonTextDownload": {
+    "message": "Process Data",
+    "description": ""
+  },
+  "gdocsbuttonTitleDownload": {
+    "message": "Downloads the writing process data ZIP for this document.",
+    "description": ""
+  },
+  "gdocsbuttonTextExplore": {
+    "message": "Explore Process",
+    "description": ""
+  },
+  "gdocsbuttonOpenReport": {
+    "message": "Open Report",
+    "description": ""
+  },
+  "gdocsbuttonTitleExplore": {
+    "message": "Opens the writing process of this document in a new tab, locally, without sharing data",
+    "description": ""
+  },
+  "gdocsbuttonTextNoAccess": {
+    "message": "No Edit Access",
+    "description": ""
+  },
+  "gdocsbuttonTitleNoAccess": {
+    "message": "Cannot show the writing process! This document is read-only, you are offline, or there's an unknown issue. If needed, please contact support.",
+    "description": ""
+  },
+  "gdocsbuttonTextDownloadLoading": {
+    "message": "Downloading…",
+    "description": ""
+  },
+  "gdocsbuttonTextDownloadError": {
+    "message": "Err Downloading",
+    "description": ""
+  },
+  "gdocsbuttonTextExploreLoading": {
+    "message": "Opening report",
+    "description": ""
+  },
+  "gdocsbuttonTextExploreError": {
+    "message": "Err Opening",
+    "description": ""
+  },
+
+  "gdocsribbonLoading": {
+    "message": "Process Feedback is loading…",
+    "description": ""
+  },
+  "gdocsribbonNoAccess": {
+    "message": "Document is read-only or offline! Exploring the process requires edit access.",
+    "description": ""
+  },
+  "gdocsribbonTypingTimeName": {
+    "message": "Time",
+    "description": ""
+  },
+  "godcsribbonAuthorsName": {
+    "message": "Authors",
+    "description": ""
+  },
+  "godcsribbonEditsName": {
+    "message": "Edits",
+    "description": ""
+  },
+  "gdocsribbonTypingTimeLoading": {
+    "message": "loading…",
+    "description": ""
+  },
+  "godcsribbonAuthorsTitle": {
+    "message": "Number of people who changed the document. Explore the full process to see the details.",
+    "description": ""
+  },
+  "godcsribbonEditsTitle": {
+    "message": "Total changes made in the entire document (all tabs in the document)",
+    "description": ""
+  },
+  "godcsribbonTypingTimeTitle": {
+    "message": "Total editing time of the entire document (all tabs in the document)",
+    "description": ""
+  },
+  "godcsribbonAuthorsTooltip": {
+    "message": "Actual contributing authors (all tabs) may be more; view the full process to see details. May not always be accurate.",
+    "description": ""
+  },
+  "godcsribbonEditsTooltip": {
+    "message": "Approximate number of edits (all tabs); view the full process to see the details.",
+    "description": ""
+  },
+  "godcsribbonTypingTimeTooltip": {
+    "message": "Editing time of the entire document (all tabs); view the full process to see editing time for individual tabs.",
+    "description": ""
+  },
+  "godcsribbonCloseAlert": {
+    "message": "This will disable the ribbon and reload this page. You can re-enable it in the extension settings. Do you want to continue?",
+    "description": ""
+  },
+	"exploreProcessModalCloseButtonText": {
+		"message": "Close",
+		"description": ""
+	},
+  "exploreProcessModalTitle": {
+		"message": "Explore the writing process",
+		"description": ""
+	},
+	"exploreProcessModalSubtitle": {
+		"message": "Explore the writing process of this document",
+		"description": ""
+	},
+
+  "processStatusIdle": {
+    "message": "Ready to explore the process",
+    "description": ""
+  },
+  "processStatusFetchingRevisions": {
+    "message": "Attempting to download edit history from Google…",
+    "description": ""
+  },
+  "processStatusRetrievingRevisionData": {
+    "message": "Downloading edit history from Google…",
+    "description": ""
+  },
+  "processStatusFetchingComments": {
+    "message": "Fetching comments…",
+    "description": ""
+  },
+  "processStatusAddingComments": {
+    "message": "Downloading and including comments…",
+    "description": ""
+  },
+  "processStatusRemovingComments": {
+    "message": "Removing comments…",
+    "description": ""
+  },
+  "processStatusPreparingReport": {
+    "message": "Preparing report data…",
+    "description": ""
+  },
+  "processStatusOpeningReport": {
+    "message": "Opening report locally in a new tab, without sharing your data…",
+    "description": ""
+  },
+  "processStatusDownloadingData": {
+    "message": "Downloading process data…",
+    "description": ""
+  },
+  "processStatusCompressingData": {
+    "message": "Compressing data…",
+    "description": ""
+  },
+  "processStatusCompletedOpenReport": {
+    "message": "Data forwarded to Process Feedback page…",
+    "description": ""
+  },
+  "processStatusCompletedDownload": {
+    "message": "Process data ZIP download started!",
+    "description": ""
+  },
+  "processErrorNetwork": {
+    "message": "It looks like your internet connection is not working",
+    "description": ""
+  },
+  "processErrorFetchingRevisions": {
+    "message": "Failed to download the edit history of this document!",
+    "description": ""
+  },
+  "processErrorRetrievingRevisionData": {
+    "message": "Failed to retrieve revision data from Google!",
+    "description": ""
+  },
+  "processErrorPreparingReport": {
+    "message": "Failed to prepare report data.",
+    "description": ""
+  },
+  "processErrorUpdatingComments": {
+    "message": "Failed to update comments in report data.",
+    "description": ""
+  },
+  "processErrorOpeningReport": {
+    "message": "Failed to open report.",
+    "description": ""
+  },
+  "processErrorDownloadingData": {
+    "message": "Failed to download process data.",
+    "description": ""
+  },
+  "processErrorGeneric": {
+    "message": "An unexpected error occurred.",
+    "description": ""
+  },
+  "commentsCommentBy": {
+    "message": "Comment by",
+    "description": ""
+  },
+  "commentsUnknownAuthor": {
+    "message": "Unknown",
+    "description": ""
+  },
+  "commentsReferencedText": {
+    "message": "Referenced text",
+    "description": ""
+  },
+  "commentsEdited": {
+    "message": "Edited",
+    "description": ""
+  },
+  "commentsDeleted": {
+    "message": "DELETED",
+    "description": ""
+  },
+  "commentsResolved": {
+    "message": "RESOLVED",
+    "description": ""
+  },
+  "commentsReplies": {
+    "message": "Replies",
+    "description": ""
+  },
+  "processMetadataUnknownAuthor": {
+    "message": "Unknown Author",
+    "description": ""
+  },
+  "processMetadataUnknownEmail": {
+    "message": "Unknown Email",
+    "description": ""
+  },
+  "processMetadataUnknownTitle": {
+    "message": "Unknown Title",
+    "description": ""
+  },
+  "processMetadataReadyPrefix": {
+    "message": "Metadata including",
+    "description": ""
+  },
+  "processMetadataReadySuffix": {
+    "message": "etc. is ready...",
+    "description": ""
+  },
+  "processMetadataPrepareFailed": {
+    "message": "Failed to prepare document metadata!",
+    "description": ""
+  },
+  "popupExtensionDescriptionPart1": {
+		"message": "Explore, share, or reflect on your writing process",
+		"description": ""
+	},
+	"popupExtensionDescriptionPart3": {
+		"message": "About the extension",
+		"description": ""
+	},
+  "popupExtensionDescriptionPart4": {
+		"message": "What Data It Collects",
+		"description": ""
+	},
+	"popupFooterDeveloperText": {
+		"message": "Developed by",
+		"description": ""
+	},
+	"popupFooterContactText1": {
+		"message": "Need Help?",
+		"description": ""
+	},
+	"popupFooterContactText2": {
+		"message": "Contact Support",
+		"description": ""
+	},
+	"popupFooterWatchTutorial": {
+		"message": "Watch Tutorial",
+		"description": ""
+	},
+  "popupFooterErrorContactText":{
+    "message": "If the error persists, you can ",
+    "description": ""
+  },
+  "extremelyLargeDocumentAlert": {
+    "message": "Unable to download edit history from Google Docs! This document's edit history is too large to download. To view the edit history, open the document in Google Docs and go to: File → Version history → See version history.",
+    "description": ""
+  },
+  "gdocsribbonReadOnlyDocumentMessage":{
+    "message": "Document is read-only or offline! Exploring the process requires edit access.",
+    "description": ""
+  },
+  "gdocsbuttonReadOnlyDocumentText":{
+    "message": "Read-Only",
+    "description": ""
+  },
+  "gdocsbuttonReadOnlyDocumentTitle":{
+    "message": "The document is in read-only mode. Editing access is required to explore the writing process.",
+    "description": ""
+  },
+  "popupRibbonSettingRibbonModeChangeWarning":{
+    "message": "Reload your Google Docs page to continue editing",
+    "description": ""
+  },
+  "logInErrorMessage": {
+    "message": "Please log in to Google Docs to explore the writing process.",
+    "description": ""
+  },
+  "godcsribbonRelatedAlert": {
+    "message": "To correctly apply ribbon-related changes a page reload is required. Reload this page?",
+    "description": ""
+  }
+}
