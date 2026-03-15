@@ -60,7 +60,7 @@ Native speakers are encouraged to review open PRs for their language. Leave a co
 
 ## Scope of this repository
 
-This repository is for **translations only**. For bug reports, feature requests, or anything related to the extension itself, please use the main extension's support channel.
+This repository is for **translations only**. For bug reports, feature requests, or anything related to the extension itself, please [contact us](https://www.processfeedback.org/contact).
 
 ---
 
