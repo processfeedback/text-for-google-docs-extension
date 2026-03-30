@@ -1,452 +1,698 @@
 {
   "extensionName": {
     "message": "with-locales-i18n-en",
-    "description": ""
+    "description": "Name of the extension shown in Chrome extension management"
   },
   "extensionDescription": {
     "message": "Example using locales + i18n!",
-    "description": ""
+    "description": "Description of the extension shown in Chrome extension management"
   },
-
   "zipReadMeTxt": {
     "message": "To explore the Google Docs process, please load this ZIP file at https://app.processfeedback.org/gdocs",
-    "description": ""
+    "description": "Content of readme.txt file included in downloaded ZIP"
   },
-
   "tooFewChangesAlert": {
     "message": "Not enough editing activity!\\n\\nThis document has fewer than 10 edits, which isn't enough to generate a process report.\\n\\nType for at least 10 more seconds and then try again.",
-    "description": ""
+    "description": "Alert shown when document has insufficient edits to generate a report"
   },
-
   "popupTitle": {
     "message": "Process Feedback for Google Docs",
-    "description": ""
+    "description": "Main title shown in the extension popup header"
   },
   "popupDescription": {
     "message": "This extension shows the edit history of a Google Docs document. Please read more at\nProcess Feedback's",
-    "description": ""
+    "description": "Description text in popup (unused)"
   },
   "popupHyperlinkTextToProcessFeedbackGoogleDocsPage": {
     "message": "Google Docs page",
-    "description": ""
+    "description": "Link text for Process Feedback Google Docs page (unused)"
   },
   "popupRibbonSettingTitle": {
     "message": "Ribbon Settings",
-    "description": ""
+    "description": "Section header for ribbon settings in popup"
   },
   "popupRibbonSettingRibbonModeTitle": {
     "message": "Ribbon",
-    "description": ""
+    "description": "Label for ribbon display mode dropdown in popup"
   },
   "popupRibbonSettingRibbonModeOptionAlways": {
     "message": "Show ribbon (default)",
-    "description": ""
+    "description": "Dropdown option to always show the ribbon"
   },
   "popupRibbonSettingRibbonModeOptionFallback": {
-  "message": "Show button instead",
-  "description": ""
+    "message": "Show button instead",
+    "description": "Dropdown option to show button instead of ribbon"
   },
   "popupRibbonSettingRibbonModeOptionNever": {
-  "message": "Never show ribbon",
-  "description": ""
+    "message": "Never show ribbon",
+    "description": "Dropdown option to never show the ribbon"
   },
   "popupRibbonSettingCheckboxTitleToNotShowTimeInRibbon": {
     "message": "Do not show editing time in ribbon",
-    "description": ""
+    "description": "Checkbox label to hide typing time from ribbon"
   },
   "popupRibbonSettingDropdownTooltip": {
     "message": "Determines whether or not and when the long ribbon below the toolbar is shown",
-    "description": ""
+    "description": "Tooltip for ribbon display mode dropdown"
   },
   "popupRibbonSettingCheckboxTitleToNotShowTimeInRibbonTooltip": {
     "message": "Check this to hide editing time in ribbon (makes the ribbon load faster)",
-    "description": ""
+    "description": "Tooltip for hide typing time checkbox"
   },
   "popupRibbonSettingDisabledByInstantDownload": {
     "message": "This setting cannot be changed while instant download is enabled. Turn off \"Instantly download process data\" to update ribbon settings.",
-    "description": ""
+    "description": "Alert shown when trying to change ribbon settings while instant download is enabled"
   },
   "popupRibbonSettingDisabledByInstantDownload2": {
     "message": "To remove the ribbon, first pin the Process Feedback extension and then, in the settings, uncheck \"Instantly download process data\".",
-    "description": ""
+    "description": "Alert shown when trying to close ribbon while instant download is enabled"
   },
   "popupOtherSettingTitle": {
     "message": "Other Settings",
-    "description": ""
+    "description": "Section header for other settings in popup"
   },
   "popupOtherSettingCheckboxTitleToIncludeCommentsInReport": {
     "message": "Include comments in this document in the writing process report",
-    "description": ""
+    "description": "Checkbox label to include document comments in the report"
   },
   "popupOtherSettingCheckboxTitleToIncludeCommentsInReportTooltip": {
     "message": "Check this to include comments (suggestions) made by authors and to see them in the process report.",
-    "description": ""
+    "description": "Tooltip for include comments checkbox (unused)"
   },
   "popupOtherSettingCheckboxTitleToDownloadProcessDataDownload": {
     "message": "Download",
-    "description": ""
+    "description": "First part of download checkbox label (unused)"
   },
   "popupOtherSettingCheckboxTitleToDownloadProcessDataProcessData": {
     "message": "process data",
-    "description": ""
+    "description": "Second part of download checkbox label (unused)"
   },
   "popupOtherSettingCheckboxTitleToDownloadProcessDataDownloadTooltip": {
     "message": "This changes the behavior of the Explore Process button. It downloads a ZIP file containing process data for sharing.",
-    "description": ""
+    "description": "Tooltip for download process data checkbox (unused)"
   },
   "popupOtherSettingCheckboxTitleToDirectOpenReport": {
     "message": "Don't show this popup next time; open the report directly",
-    "description": ""
+    "description": "Full checkbox label to skip popup (used in explore modal)"
   },
-    "popupOtherSettingCheckboxTitleToDirectOpenReportShorter": {
+  "popupOtherSettingCheckboxTitleToDirectOpenReportShorter": {
     "message": "Skip popup when opening report",
-    "description": ""
+    "description": "Short checkbox label to skip popup (used in popup settings)"
   },
   "popupOtherSettingCheckboxTitleToDirectOpenReportTooltip": {
     "message": "Check this to skip this popup and directly open the report in a new tab when clicking the Explore Process button.",
-    "description": ""
+    "description": "Tooltip for skip popup checkbox"
   },
   "popupOtherSettingAutomaticDownloadProcessData": {
     "message": "Instantly download process data",
-    "description": ""
+    "description": "Checkbox label for automatic download on document open"
   },
   "popupOtherSettingAutomaticDownloadProcessDataTooltip": {
     "message": "Check this to automatically download the process data ZIP when a document is opened. Reloads all open document tabs. Helpful for viewing lots of reports in the teacher dashboard.",
-    "description": ""
+    "description": "Tooltip for automatic download checkbox"
   },
   "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessData": {
     "message": "Don't open a new tab when downloading process data",
-    "description": ""
+    "description": "Full checkbox label to suppress new tab on download (used in explore modal)"
   },
   "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessDataShorter": {
     "message": "Quietly download process data",
-    "description": ""
+    "description": "Short checkbox label to suppress new tab (used in popup settings)"
   },
   "popupOtherSettingStopOpeningNewTabWhenDownloadingProcessDataTooltip": {
     "message": "Check this to stop opening a new tab when downloading the process data ZIP file.",
-    "description": ""
+    "description": "Tooltip for suppress new tab checkbox"
   },
   "popupDevelopedBy": {
     "message": "Developed by",
-    "description": ""
+    "description": "Footer text prefix before developer link (unused)"
   },
   "popupNeedHelp": {
     "message": "Need Help?",
-    "description": ""
+    "description": "Footer help prompt text (unused)"
   },
   "popupContactSupport": {
     "message": "Contact Support",
-    "description": ""
+    "description": "Footer contact support link text (unused)"
   },
-
-  "gdocsbuttonIntialLoadText": {
+  "buttonIntialLoadText": {
     "message": "Setting up…",
-    "description": ""
+    "description": "Button text shown while extension is initializing"
   },
-  "gdocsbuttonIntialLoadTitle": {
+  "buttonIntialLoadTitle": {
     "message": "Setting up Process Feedback…",
-    "description": ""
+    "description": "Button tooltip shown while extension is initializing"
   },
-  "gdocsbuttonTextDownload": {
+  "buttonTextDownload": {
     "message": "Process Data",
-    "description": ""
+    "description": "Button text for downloading process data ZIP"
   },
-  "gdocsbuttonTitleDownload": {
+  "buttonTitleDownload": {
     "message": "Downloads the writing process data ZIP for this document.",
-    "description": ""
+    "description": "Button tooltip for download action"
   },
-  "gdocsbuttonTextExplore": {
+  "buttonTextExplore": {
     "message": "Explore Process",
-    "description": ""
+    "description": "Button text for exploring the writing process"
   },
-  "gdocsbuttonOpenReport": {
+  "buttonOpenReport": {
     "message": "Open Report",
-    "description": ""
+    "description": "Button text for opening the report (unused)"
   },
-  "gdocsbuttonTitleExplore": {
+  "buttonTitleExplore": {
     "message": "Opens the writing process of this document in a new tab, locally, without sharing data",
-    "description": ""
+    "description": "Button tooltip for explore action"
   },
-  "gdocsbuttonTextNoAccess": {
+  "buttonTextNoAccess": {
     "message": "No Edit Access",
-    "description": ""
+    "description": "Button text when document access is denied (unused)"
   },
-  "gdocsbuttonTitleNoAccess": {
+  "buttonTitleNoAccess": {
     "message": "Cannot show the writing process! This document is read-only, you are offline, or there's an unknown issue. If needed, please contact support.",
-    "description": ""
+    "description": "Button tooltip when document access is denied (unused)"
   },
-  "gdocsbuttonTextDownloadLoading": {
+  "buttonTextDownloadLoading": {
     "message": "Downloading…",
-    "description": ""
+    "description": "Button text while downloading process data"
   },
-  "gdocsbuttonTextDownloadError": {
-    "message": "Err Downloading",
-    "description": ""
+  "buttonTextDownloadError": {
+    "message": "Error Downloading",
+    "description": "Button text when download fails (unused)"
   },
-  "gdocsbuttonTextExploreLoading": {
+  "buttonTextExploreLoading": {
     "message": "Opening report",
-    "description": ""
+    "description": "Button text while opening the report"
   },
-  "gdocsbuttonTextExploreError": {
-    "message": "Err Opening",
-    "description": ""
+  "buttonTextExploreError": {
+    "message": "Error Opening",
+    "description": "Button text when opening report fails (unused)"
   },
-
-  "gdocsribbonLoading": {
+  "ribbonLoading": {
     "message": "Process Feedback is loading…",
-    "description": ""
+    "description": "Ribbon text shown while loading document data"
   },
-  "gdocsribbonNoAccess": {
+  "ribbonNoAccess": {
     "message": "Document is read-only or offline! Exploring the process requires edit access.",
-    "description": ""
+    "description": "Ribbon message when document access is denied (unused)"
   },
-  "gdocsribbonTypingTimeName": {
+  "ribbonTypingTimeName": {
     "message": "Time",
-    "description": ""
+    "description": "Label for typing time statistic in ribbon"
   },
-  "godcsribbonAuthorsName": {
+  "ribbonAuthorsName": {
     "message": "Authors",
-    "description": ""
+    "description": "Label for authors count statistic in ribbon"
   },
-  "godcsribbonEditsName": {
+  "ribbonEditsName": {
     "message": "Edits",
-    "description": ""
+    "description": "Label for edits count statistic in ribbon"
   },
-  "gdocsribbonTypingTimeLoading": {
+  "ribbonTypingTimeLoading": {
     "message": "loading…",
-    "description": ""
+    "description": "Placeholder text while typing time is being calculated"
   },
-  "godcsribbonAuthorsTitle": {
+  "ribbonAuthorsTitle": {
     "message": "Number of people who changed the document. Explore the full process to see the details.",
-    "description": ""
+    "description": "Tooltip for authors icon in ribbon"
   },
-  "godcsribbonEditsTitle": {
+  "ribbonEditsTitle": {
     "message": "Total changes made in the entire document (all tabs in the document)",
-    "description": ""
+    "description": "Tooltip for edits icon in ribbon"
   },
-  "godcsribbonTypingTimeTitle": {
+  "ribbonTypingTimeTitle": {
     "message": "Total editing time of the entire document (all tabs in the document)",
-    "description": ""
+    "description": "Tooltip for time icon in ribbon"
   },
-  "godcsribbonAuthorsTooltip": {
+  "ribbonAuthorsTooltip": {
     "message": "Actual contributing authors (all tabs) may be more; view the full process to see details. May not always be accurate.",
-    "description": ""
+    "description": "Info tooltip for authors statistic in ribbon"
   },
-  "godcsribbonEditsTooltip": {
+  "ribbonEditsTooltip": {
     "message": "Approximate number of edits (all tabs); view the full process to see the details.",
-    "description": ""
+    "description": "Info tooltip for edits statistic in ribbon"
   },
-  "godcsribbonTypingTimeTooltip": {
+  "ribbonTypingTimeTooltip": {
     "message": "Editing time of the entire document (all tabs); view the full process to see editing time for individual tabs.",
-    "description": ""
+    "description": "Info tooltip for typing time statistic in ribbon"
   },
-  "godcsribbonCloseAlert": {
+  "ribbonCloseAlert": {
     "message": "This will disable the ribbon and reload this page. You can re-enable it in the extension settings. Do you want to continue?",
-    "description": ""
+    "description": "Confirmation dialog when user clicks close button on ribbon"
   },
-	"exploreProcessModalCloseButtonText": {
-		"message": "Close",
-		"description": ""
-	},
+  "exploreProcessModalCloseButtonText": {
+    "message": "Close",
+    "description": "Close button text in explore process modal"
+  },
   "exploreProcessModalTitle": {
-		"message": "Explore the writing process",
-		"description": ""
-	},
-	"exploreProcessModalSubtitle": {
-		"message": "Explore the writing process of this document",
-		"description": ""
-	},
-
+    "message": "Explore the writing process",
+    "description": "Title of the explore process modal dialog"
+  },
+  "exploreProcessModalSubtitle": {
+    "message": "Explore the writing process of this document",
+    "description": "Subtitle of the explore process modal dialog"
+  },
   "processStatusIdle": {
     "message": "Ready to explore the process",
-    "description": ""
+    "description": "Initial status message before process starts"
   },
   "processStatusFetchingRevisions": {
     "message": "Attempting to download edit history from Google…",
-    "description": ""
+    "description": "Status message during revision count fetch"
   },
   "processStatusRetrievingRevisionData": {
     "message": "Downloading edit history from Google…",
-    "description": ""
+    "description": "Status message during revision data download (unused)"
   },
   "processStatusFetchingComments": {
     "message": "Fetching comments…",
-    "description": ""
+    "description": "Status message during comments fetch"
   },
   "processStatusAddingComments": {
     "message": "Downloading and including comments…",
-    "description": ""
+    "description": "Status message when adding comments to report data"
   },
   "processStatusRemovingComments": {
     "message": "Removing comments…",
-    "description": ""
+    "description": "Status message when removing comments from report data"
   },
   "processStatusPreparingReport": {
     "message": "Preparing report data…",
-    "description": ""
+    "description": "Status message during report preparation (unused)"
   },
   "processStatusOpeningReport": {
     "message": "Opening report locally in a new tab, without sharing your data…",
-    "description": ""
+    "description": "Status message when opening the report"
   },
   "processStatusDownloadingData": {
     "message": "Downloading process data…",
-    "description": ""
+    "description": "Status message during ZIP download"
   },
   "processStatusCompressingData": {
     "message": "Compressing data…",
-    "description": ""
+    "description": "Status message during data compression"
   },
   "processStatusCompletedOpenReport": {
     "message": "Data forwarded to Process Feedback page…",
-    "description": ""
+    "description": "Success message after report opens"
   },
   "processStatusCompletedDownload": {
     "message": "Process data ZIP download started!",
-    "description": ""
+    "description": "Success message after download starts"
   },
   "processErrorNetwork": {
     "message": "It looks like your internet connection is not working",
-    "description": ""
+    "description": "Error message when network connectivity check fails"
   },
   "processErrorFetchingRevisions": {
     "message": "Failed to download the edit history of this document!",
-    "description": ""
+    "description": "Error message when revision fetch fails"
   },
   "processErrorRetrievingRevisionData": {
     "message": "Failed to retrieve revision data from Google!",
-    "description": ""
+    "description": "Error message when revision data download fails"
   },
   "processErrorPreparingReport": {
     "message": "Failed to prepare report data.",
-    "description": ""
+    "description": "Error message when report preparation fails"
   },
   "processErrorUpdatingComments": {
     "message": "Failed to update comments in report data.",
-    "description": ""
+    "description": "Error message when comment update fails (unused)"
   },
   "processErrorOpeningReport": {
     "message": "Failed to open report.",
-    "description": ""
+    "description": "Error message when opening report fails"
   },
   "processErrorDownloadingData": {
     "message": "Failed to download process data.",
-    "description": ""
+    "description": "Error message when ZIP download fails"
   },
   "processErrorGeneric": {
     "message": "An unexpected error occurred.",
-    "description": ""
+    "description": "Generic fallback error message (unused)"
   },
   "commentsCommentBy": {
     "message": "Comment by",
-    "description": ""
+    "description": "Label prefix for comment author in formatted comment output"
   },
   "commentsUnknownAuthor": {
     "message": "Unknown",
-    "description": ""
+    "description": "Fallback text when comment author is unknown"
   },
   "commentsReferencedText": {
     "message": "Referenced text",
-    "description": ""
+    "description": "Label for quoted/highlighted text in comment"
   },
   "commentsEdited": {
     "message": "Edited",
-    "description": ""
+    "description": "Label indicating comment was edited"
   },
   "commentsDeleted": {
     "message": "DELETED",
-    "description": ""
+    "description": "Status badge for deleted comments"
   },
   "commentsResolved": {
     "message": "RESOLVED",
-    "description": ""
+    "description": "Status badge for resolved comments"
   },
   "commentsReplies": {
     "message": "Replies",
-    "description": ""
+    "description": "Section header for comment replies"
   },
   "processMetadataUnknownAuthor": {
     "message": "Unknown Author",
-    "description": ""
+    "description": "Fallback for document author name when unavailable"
   },
   "processMetadataUnknownEmail": {
     "message": "Unknown Email",
-    "description": ""
+    "description": "Fallback for document author email when unavailable"
   },
   "processMetadataUnknownTitle": {
     "message": "Unknown Title",
-    "description": ""
+    "description": "Fallback for document title when unavailable"
   },
   "processMetadataReadyPrefix": {
     "message": "Metadata including",
-    "description": ""
+    "description": "First part of status message when metadata is ready"
   },
   "processMetadataReadySuffix": {
     "message": "etc. is ready...",
-    "description": ""
+    "description": "Last part of status message when metadata is ready"
   },
   "processMetadataPrepareFailed": {
     "message": "Failed to prepare document metadata!",
-    "description": ""
+    "description": "Status message when metadata preparation fails"
   },
-  "popupExtensionDescriptionPart1": {
-		"message": "Explore, share, or reflect on your writing process",
-		"description": ""
-	},
-	"popupExtensionDescriptionPart3": {
-		"message": "About the extension",
-		"description": ""
-	},
-  "popupExtensionDescriptionPart4": {
-		"message": "What Data It Collects",
-		"description": ""
-	},
-	"popupFooterDeveloperText": {
-		"message": "Developed by",
-		"description": ""
-	},
-	"popupFooterContactText1": {
-		"message": "Need Help?",
-		"description": ""
-	},
-	"popupFooterContactText2": {
-		"message": "Contact Support",
-		"description": ""
-	},
-	"popupFooterWatchTutorial": {
-		"message": "Watch Tutorial",
-		"description": ""
-	},
-  "popupFooterErrorContactText":{
+  "popupExtensionDescSubtitle": {
+    "message": "Explore, share, or reflect on your writing process",
+    "description": "Subtitle shown below extension title in popup"
+  },
+  "popupExtensionDescAbout": {
+    "message": "About the extension",
+    "description": "Link text for about page in popup"
+  },
+  "popupExtensionDescWhatData": {
+    "message": "What Data It Collects",
+    "description": "Link text for data collection info page in popup"
+  },
+  "popupFooterDeveloperText": {
+    "message": "Developed by",
+    "description": "Footer text prefix before processfeedback.org link"
+  },
+  "popupFooterContactText1": {
+    "message": "Need Help?",
+    "description": "Footer help prompt in popup"
+  },
+  "popupFooterContactText2": {
+    "message": "Contact Support",
+    "description": "Footer contact support link text in popup"
+  },
+  "popupFooterWatchTutorial": {
+    "message": "Watch Tutorial",
+    "description": "Footer tutorial video link text in popup"
+  },
+  "popupFooterErrorContactText": {
     "message": "If the error persists, you can ",
-    "description": ""
+    "description": "Error footer text before contact links"
   },
   "extremelyLargeDocumentAlert": {
     "message": "Unable to download edit history from Google Docs! This document's edit history is too large to download. To view the edit history, open the document in Google Docs and go to: File → Version history → See version history.",
-    "description": ""
+    "description": "Error message for documents exceeding the size limit"
   },
-  "gdocsribbonReadOnlyDocumentMessage":{
+  "ribbonReadOnlyDocumentMessage": {
     "message": "Document is read-only or offline! Exploring the process requires edit access.",
-    "description": ""
+    "description": "Ribbon message when document is in read-only mode"
   },
-  "gdocsbuttonReadOnlyDocumentText":{
+  "buttonReadOnlyDocumentText": {
     "message": "Read-Only",
-    "description": ""
+    "description": "Button text when document is in read-only mode"
   },
-  "gdocsbuttonReadOnlyDocumentTitle":{
+  "buttonReadOnlyDocumentTitle": {
     "message": "The document is in read-only mode. Editing access is required to explore the writing process.",
-    "description": ""
+    "description": "Button tooltip when document is in read-only mode"
   },
-  "popupRibbonSettingRibbonModeChangeWarning":{
+  "popupRibbonSettingRibbonModeChangeWarning": {
     "message": "Reload your Google Docs page to continue editing",
-    "description": ""
+    "description": "Warning shown after changing ribbon settings (unused)"
   },
   "logInErrorMessage": {
     "message": "Please log in to Google Docs to explore the writing process.",
-    "description": ""
+    "description": "Error message when user is not logged in to Google"
   },
   "godcsribbonRelatedAlert": {
     "message": "To correctly apply ribbon-related changes a page reload is required. Reload this page?",
-    "description": ""
+    "description": "Confirmation dialog when changing ribbon settings in popup"
+  },
+  "orchestratorDownloadingEditsLargeDoc": {
+    "message": "Downloading $REVISIONS$ edits from Google... This is a very large document and it may take several minutes or it may fail...",
+    "description": "Status message when downloading edits for very large documents (>100k edits)",
+    "placeholders": {
+      "revisions": {
+        "content": "$1",
+        "example": "150,000"
+      }
+    }
+  },
+  "orchestratorDownloadingEditsMediumDoc": {
+    "message": "Downloading $REVISIONS$ edits from Google... This is a large document and it may take up to a few minutes...",
+    "description": "Status message when downloading edits for large documents (>50k edits)",
+    "placeholders": {
+      "revisions": {
+        "content": "$1",
+        "example": "75,000"
+      }
+    }
+  },
+  "orchestratorDownloadingEdits": {
+    "message": "Downloading $REVISIONS$ edits from Google...",
+    "description": "Status message when downloading edits for normal-sized documents",
+    "placeholders": {
+      "revisions": {
+        "content": "$1",
+        "example": "1,234"
+      }
+    }
+  },
+  "orchestratorDownloadedEdits": {
+    "message": "Downloaded $MAXREVISION$ edits from Google...",
+    "description": "Status message when edits have been successfully downloaded",
+    "placeholders": {
+      "maxrevision": {
+        "content": "$1",
+        "example": "1,234"
+      }
+    }
+  },
+  "orchestratorRevisionDataError": {
+    "message": "Failed to download revision data from Google!",
+    "description": "Error message when revision data download fails"
+  },
+  "orchestratorObtainingMetadata": {
+    "message": "Obtaining document metadata...",
+    "description": "Status message when preparing document metadata"
+  },
+  "orchestratorNotEnoughEdits": {
+    "message": "Not enough edits in document",
+    "description": "Error message when document has too few edits to generate a report"
+  },
+  "orchestratorMinimumEditsRequired": {
+    "message": "Document has $REVISIONS$ edits, minimum $MINREQUIRED$ required",
+    "description": "Detailed error message showing actual vs minimum required edits",
+    "placeholders": {
+      "revisions": {
+        "content": "$1",
+        "example": "5"
+      },
+      "minrequired": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "exploreModalDataPrepared": {
+    "message": "Data prepared. Choose an action below.",
+    "description": "Status message shown in modal when data preparation is complete"
+  },
+  "exploreModalDataReady": {
+    "message": "✓ Writing process data (edit history of this document) is downloaded. You can now open the writing process report to explore the writing process or download the process data ZIP for sharing.",
+    "description": "Success message shown when data is ready for exploration or download"
+  },
+  "exploreModalZipDownloadingPartOne": {
+    "message": "Writing process data ZIP is being downloaded…",
+    "description": "First part of message shown during ZIP download"
+  },
+  "exploreModalZipDownloadingPartTwo": {
+    "message": "Once downloaded, visit",
+    "description": "Second part of message shown during ZIP download, before the link"
+  },
+  "exploreModalZipDownloadingPartThree": {
+    "message": "to load the ZIP file and explore the writing process.",
+    "description": "Third part of message shown after ZIP download link"
+  },
+  "exploreModalRibbonQuestion": {
+    "message": "Don't like the ribbon at the top?",
+    "description": "Question prompting user about ribbon preferences"
+  },
+  "exploreModalChangeSettings": {
+    "message": "Change settings",
+    "description": "Link text to change ribbon settings"
+  },
+  "exploreModalSettingsInstructions": {
+    "message": "To open more extension settings, 1) click on the jigsaw puzzle piece icon on the right of the address bar, 2) find the blue PF icon and pin it, and 3) click on the blue PF icon. For example, if you don't like the long ribbon, you can replace it with a small button.",
+    "description": "Detailed instructions for accessing extension settings"
+  },
+  "errorDisplayHeader": {
+    "message": "⚠️ Encountered an error!",
+    "description": "Header text shown in error display component"
+  },
+  "errorDisplayContactUs": {
+    "message": "Contact Us",
+    "description": "Link text for contacting support via website"
+  },
+  "errorDisplayEmailUs": {
+    "message": "Email Us",
+    "description": "Link text for contacting support via email"
+  },
+  "ribbonCloseButtonTitle": {
+    "message": "Never show this ribbon",
+    "description": "Tooltip text for the ribbon close button"
+  },
+  "popupDebugModeCheckbox": {
+    "message": "Run step-by-step in debug mode",
+    "description": "Checkbox label for enabling debug mode"
+  },
+  "popupDebugModeTooltip": {
+    "message": "Enabling this option will allow you to run the process step-by-step in debug mode, helping you identify any issues",
+    "description": "Tooltip explaining debug mode functionality"
+  },
+  "buttonTextWorking": {
+    "message": "Working…",
+    "description": "Text shown on button while processing"
+  },
+  "ariaLabelExploreProcess": {
+    "message": "Explore or Share Your Process",
+    "description": "Accessibility label for explore process modal"
+  },
+  "ariaLabelError": {
+    "message": "Error",
+    "description": "Accessibility label for error modal"
+  },
+  "ariaLabelLoading": {
+    "message": "Loading",
+    "description": "Accessibility label for loading spinner"
+  },
+  "timeUnitYear": {
+    "message": "year",
+    "description": "Singular form of year time unit"
+  },
+  "timeUnitYears": {
+    "message": "years",
+    "description": "Plural form of year time unit"
+  },
+  "timeUnitMonth": {
+    "message": "month",
+    "description": "Singular form of month time unit"
+  },
+  "timeUnitMonths": {
+    "message": "months",
+    "description": "Plural form of month time unit"
+  },
+  "timeUnitDay": {
+    "message": "day",
+    "description": "Singular form of day time unit"
+  },
+  "timeUnitDays": {
+    "message": "days",
+    "description": "Plural form of day time unit"
+  },
+  "timeUnitHr": {
+    "message": "hr",
+    "description": "Singular form of hour time unit (abbreviated)"
+  },
+  "timeUnitHrs": {
+    "message": "hrs",
+    "description": "Plural form of hour time unit (abbreviated)"
+  },
+  "timeUnitMin": {
+    "message": "min",
+    "description": "Singular form of minute time unit (abbreviated)"
+  },
+  "timeUnitMins": {
+    "message": "mins",
+    "description": "Plural form of minute time unit (abbreviated)"
+  },
+  "timeUnitSec": {
+    "message": "sec",
+    "description": "Singular form of second time unit (abbreviated)"
+  },
+  "timeUnitSecs": {
+    "message": "secs",
+    "description": "Plural form of second time unit (abbreviated)"
+  },
+  "networkCheckSuggestedAction": {
+    "message": "Please verify that your internet connection is working and other websites are opening as usual.",
+    "description": "Suggested action when network connectivity check fails"
+  },
+  "exploreModalSettingsScreenshotAlt": {
+    "message": "Extension Settings Screenshot",
+    "description": "Alt text for the extension settings instruction screenshot in the explore modal"
+  },
+  "popupLogoAlt": {
+    "message": "Process Feedback Logo",
+    "description": "Alt text for the Process Feedback logo image in the popup header"
+  },
+  "compressionFailed": {
+    "message": "Compression failed",
+    "description": "Fallback error message when data compression fails in the background script"
+  },
+  "downloadZipForcedFailure": {
+    "message": "PF: Download ZIP failed (forced failure)",
+    "description": "Error message thrown when ZIP download is force-failed for testing purposes"
+  },
+  "findMaxRevisionsFastStatusError": {
+    "message": "findMaxRevisionsFast: Retrieving changes from Google's server did not result in a success (200) status.",
+    "description": "Error thrown when fast revision fetch returns a non-200 status code"
+  },
+  "findMaxRevisionsFastConnectionError": {
+    "message": "findMaxRevisionsFast: ConnectionError",
+    "description": "Error thrown when fast revision fetch fails due to a connection error"
+  },
+  "orchestratorEditsFound": {
+    "message": "$REVISIONS$ edits found...",
+    "description": "Status message shown after fast revision fetch succeeds",
+    "placeholders": {
+      "revisions": {
+        "content": "$1",
+        "example": "1,234"
+      }
+    }
+  },
+  "emptyRevisionDataError": {
+    "message": "Empty revision data received",
+    "description": "Error thrown when revision data retrieval returns empty data"
+  },
+  "dataWithHeaderEmptyError": {
+    "message": "Data with header is empty.",
+    "description": "Error thrown when updateCommentsIntoDataHeader receives empty data"
+  },
+  "openReportForcedFailure": {
+    "message": "PF: Failed to open report (forced failure)",
+    "description": "Error thrown when open report is force-failed for testing purposes"
+  },
+  "backgroundScriptError": {
+    "message": "Background script returned error",
+    "description": "Error thrown when the background script returns a non-ok response when opening report"
+  },
+  "retrieveRevisionsNetworkForcedFailure": {
+    "message": "PF: N/W Error (forced failure)",
+    "description": "Error thrown when revision JSON retrieval is force-failed for testing purposes"
+  },
+  "retrieveRevisionsNetworkError": {
+    "message": "PF: N/W Error",
+    "description": "Error thrown when revision JSON fetch returns no response or a non-ok status"
+  },
+  "retrieveRevisionsEmptyData": {
+    "message": "PF: Empty revision data",
+    "description": "Error thrown when revision JSON fetch returns empty data"
   }
 }
