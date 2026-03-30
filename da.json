@@ -7,17 +7,14 @@
     "message": "Eksempel med locales + i18n!",
     "description": ""
   },
-
   "zipReadMeTxt": {
     "message": "For at udforske Google Docs-processen skal du indlæse denne ZIP-fil på https://app.processfeedback.org/gdocs",
     "description": ""
   },
-
   "tooFewChangesAlert": {
     "message": "Ikke nok redigeringsaktivitet!\\n\\nDette dokument har færre end 10 redigeringer, hvilket ikke er nok til at generere en procesrapport.\\n\\nSkriv i mindst 10 sekunder mere, og prøv derefter igen.",
     "description": ""
   },
-
   "popupTitle": {
     "message": "Process Feedback til Google Docs",
     "description": ""
@@ -138,109 +135,107 @@
     "message": "Kontakt support",
     "description": ""
   },
-
-  "gdocsbuttonIntialLoadText": {
+  "buttonIntialLoadText": {
     "message": "Sætter op…",
     "description": ""
   },
-  "gdocsbuttonIntialLoadTitle": {
+  "buttonIntialLoadTitle": {
     "message": "Sætter Process Feedback op…",
     "description": ""
   },
-  "gdocsbuttonTextDownload": {
+  "buttonTextDownload": {
     "message": "Procesdata",
     "description": ""
   },
-  "gdocsbuttonTitleDownload": {
+  "buttonTitleDownload": {
     "message": "Downloader ZIP-filen med skriveprocesdata for dette dokument.",
     "description": ""
   },
-  "gdocsbuttonTextExplore": {
+  "buttonTextExplore": {
     "message": "Udforsk proces",
     "description": ""
   },
-  "gdocsbuttonOpenReport": {
+  "buttonOpenReport": {
     "message": "Åbn rapport",
     "description": ""
   },
-  "gdocsbuttonTitleExplore": {
+  "buttonTitleExplore": {
     "message": "Åbner skriveprocessen for dette dokument i en ny fane, lokalt, uden at dele data",
     "description": ""
   },
-  "gdocsbuttonTextNoAccess": {
+  "buttonTextNoAccess": {
     "message": "Ingen redigeringstilgang",
     "description": ""
   },
-  "gdocsbuttonTitleNoAccess": {
+  "buttonTitleNoAccess": {
     "message": "Kan ikke vise skriveprocessen! Dette dokument er skrivebeskyttet, du er offline, eller der er et ukendt problem. Kontakt support, hvis det er nødvendigt.",
     "description": ""
   },
-  "gdocsbuttonTextDownloadLoading": {
+  "buttonTextDownloadLoading": {
     "message": "Downloader…",
     "description": ""
   },
-  "gdocsbuttonTextDownloadError": {
+  "buttonTextDownloadError": {
     "message": "Fejl ved download",
     "description": ""
   },
-  "gdocsbuttonTextExploreLoading": {
+  "buttonTextExploreLoading": {
     "message": "Åbner rapport",
     "description": ""
   },
-  "gdocsbuttonTextExploreError": {
+  "buttonTextExploreError": {
     "message": "Fejl ved åbning",
     "description": ""
   },
-
-  "gdocsribbonLoading": {
+  "ribbonLoading": {
     "message": "Process Feedback indlæses…",
     "description": ""
   },
-  "gdocsribbonNoAccess": {
+  "ribbonNoAccess": {
     "message": "Dokumentet er skrivebeskyttet eller offline! Udforskning af processen kræver redigeringstilgang.",
     "description": ""
   },
-  "gdocsribbonTypingTimeName": {
+  "ribbonTypingTimeName": {
     "message": "Tid",
     "description": ""
   },
-  "godcsribbonAuthorsName": {
+  "ribbonAuthorsName": {
     "message": "Forfattere",
     "description": ""
   },
-  "godcsribbonEditsName": {
+  "ribbonEditsName": {
     "message": "Redigeringer",
     "description": ""
   },
-  "gdocsribbonTypingTimeLoading": {
+  "ribbonTypingTimeLoading": {
     "message": "indlæser…",
     "description": ""
   },
-  "godcsribbonAuthorsTitle": {
+  "ribbonAuthorsTitle": {
     "message": "Antal personer, der har ændret dokumentet. Udforsk hele processen for at se detaljerne.",
     "description": ""
   },
-  "godcsribbonEditsTitle": {
+  "ribbonEditsTitle": {
     "message": "Samlede ændringer foretaget i hele dokumentet (alle faner i dokumentet)",
     "description": ""
   },
-  "godcsribbonTypingTimeTitle": {
+  "ribbonTypingTimeTitle": {
     "message": "Samlet redigeringstid for hele dokumentet (alle faner i dokumentet)",
     "description": ""
   },
-  "godcsribbonAuthorsTooltip": {
+  "ribbonAuthorsTooltip": {
     "message": "Det faktiske antal bidragende forfattere (alle faner) kan være højere; se hele processen for detaljer. Er muligvis ikke altid præcist.",
     "description": ""
   },
-  "godcsribbonEditsTooltip": {
+  "ribbonEditsTooltip": {
     "message": "Omtrentligt antal redigeringer (alle faner); se hele processen for detaljer.",
     "description": ""
   },
-  "godcsribbonTypingTimeTooltip": {
+  "ribbonTypingTimeTooltip": {
     "message": "Redigeringstid for hele dokumentet (alle faner); se hele processen for at se redigeringstid for individuelle faner.",
     "description": ""
   },
-  "godcsribbonCloseAlert": {
+  "ribbonCloseAlert": {
     "message": "Dette deaktiverer båndet og genindlæser siden. Du kan aktivere det igen i udvidelsesindstillingerne. Vil du fortsætte?",
     "description": ""
   },
@@ -256,7 +251,6 @@
     "message": "Udforsk skriveprocessen for dette dokument",
     "description": ""
   },
-
   "processStatusIdle": {
     "message": "Klar til at udforske processen",
     "description": ""
@@ -389,15 +383,15 @@
     "message": "Kunne ikke forberede dokumentmetadata!",
     "description": ""
   },
-  "popupExtensionDescriptionPart1": {
+  "popupExtensionDescSubtitle": {
     "message": "Udforsk, del eller reflekter over din skriveproces",
     "description": ""
   },
-  "popupExtensionDescriptionPart3": {
+  "popupExtensionDescAbout": {
     "message": "Om udvidelsen",
     "description": ""
   },
-  "popupExtensionDescriptionPart4": {
+  "popupExtensionDescWhatData": {
     "message": "Hvilke data den indsamler",
     "description": ""
   },
@@ -425,15 +419,15 @@
     "message": "Kan ikke downloade redigeringshistorik fra Google Docs! Dette dokuments redigeringshistorik er for stor til at blive downloadet. For at se redigeringshistorikken skal du åbne dokumentet i Google Docs og gå til: Fil → Versionshistorik → Se versionshistorik.",
     "description": ""
   },
-  "gdocsribbonReadOnlyDocumentMessage": {
+  "ribbonReadOnlyDocumentMessage": {
     "message": "Dokumentet er skrivebeskyttet eller offline! Udforskning af processen kræver redigeringstilgang.",
     "description": ""
   },
-  "gdocsbuttonReadOnlyDocumentText": {
+  "buttonReadOnlyDocumentText": {
     "message": "Skrivebeskyttet",
     "description": ""
   },
-  "gdocsbuttonReadOnlyDocumentTitle": {
+  "buttonReadOnlyDocumentTitle": {
     "message": "Dokumentet er i skrivebeskyttet tilstand. Redigeringstilgang er påkrævet for at udforske skriveprocessen.",
     "description": ""
   },
